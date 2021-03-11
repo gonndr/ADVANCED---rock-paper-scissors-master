@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="body-idle-rules">
+
+    <div class="rules-board">
+
+      <div class="rules-title">
+        <h1>RULES</h1>
+        <div class="rules-x">
+
+        </div>
+      </div>
+
+      <div class="rules-box">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="header">
+    <div class="logo-board">
+      <img class="logo" src="images/logo.svg" alt="logo">
+    </div>
+
+    <div class="score-board">
+      <p>SCORE</p>
+      <h1>0</h1>
+    </div>
+  </div>
+
+  <div class="game">
+    <!-- Starting screen for play -->
+
+    <div class="game-box">
+      <div id="rock" class="token token-rock">
+        <div class="token-bg rock">
+
+        </div>
+      </div>
+
+      <div id="paper"  class="token token-paper">
+        <div class="token-bg paper">
+
+        </div>
+      </div>
+
+      <div id="scissors"  class="token token-scissors">
+        <div class="token-bg scissors">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="game-duel">
+      <!-- Player vs House  -->
+
+      <h2>YOU PICKED</h2>
+
+      <h2>THE HOUSE PICKED</h2>
+
+
+      <div class="game-play">
+        <!-- My play -->
+
+        <div id="picked" class="token token-scaled">
+          <div class="token-bg">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="game-result">
+        <h1>YOU WIN</h1>
+        <div class="play-again-button">
+          <p>PLAY AGAIN</p>
+        </div>
+
+      </div>
+
+
+      <div class="game-play">
+        <!-- House Play -->
+        <div id="house" class="token-empty token-scaled">
+          <div class="">
+            <!-- Empty space for token to be placed -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+  <div class="rules-button">
+    <p>RULES</p>
+  </div>
+
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
